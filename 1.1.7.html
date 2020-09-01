@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            overflow: hidden;
+            list-style: none;
+            /* background-color: #f00; */
+            padding-left: 0;
+            /* border: 1px solid #000; */
+        }
+
+        li{
+            float: left;
+            display: block;
+            background-color: white;
+            height: 180px;
+            width: 40px;
+            border-left: 1px solid #999;
+            border-bottom: 1px solid #999; 
+        }
+
+        li:last-child{
+            border-right: 1px solid #999;
+        }
+
+        div{
+            clear: both;
+            height: 100px;
+            width: 40px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .d2{
+            height: 50px;
+            width: 40px;
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <!-- 第二、六、十行，白线格外明显，无法解决 -->
+            <div>
+                1
+            </div>
+        </li>
+        <li>
+            <div class="d2">
+                2
+            </div>
+        </li>
+        <li>
+            <div>
+                3
+            </div>
+        </li>
+        <li>
+            <div class="d2">
+                4
+            </div>
+        </li>
+        <li>
+            <div>
+                5
+            </div>
+        </li>
+        <li>
+            <div class="d2">
+                6
+            </div>
+        </li>
+        <li>
+            <div>
+                7
+            </div>
+        </li>
+        <li>
+            <div class="d2">
+                8
+            </div>
+        </li>
+        <li>
+            <div>
+                9
+            </div>
+        </li>
+        <li>
+            <div class="d2">
+                10
+            </div>
+        </li>
+        <li>
+            <div>
+                11
+            </div>
+        </li>
+        <li>
+            <div class="d2">
+                12
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
