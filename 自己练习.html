@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .wrapper {
+            width: 1200px;
+            margin: 10px auto;
+            background-color: #fff;
+        }
+
+        .nav {
+            /* margin: 10px auto; */
+            list-style: none;
+            padding-left: 0;
+            text-align: center;
+            font-size: 0;
+            margin: 10px auto;
+        }
+
+        .nav-list {
+            display: inline-block;
+            /* border: 1px solid #000; */
+            height: 70px;
+            width: 16.5%;
+
+        }
+
+        .nav-list a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .nav-list a h3 {
+            display: block;
+            margin: 10px auto 2px;
+            /* margin-top: 2px; */
+            font-size: 18px;
+            width: 100px;
+            font-weight: bold;
+            /* border: 1px solid #000; */
+
+        }
+
+        .nav-list a span {
+            font-size: 14px;
+            font-weight: bold;
+            color: #999;
+        }
+
+        .nav-list:hover h3 {
+            background-color: #f00;
+            color: #fff;
+            border-radius: 10px;
+        }
+
+        .nav-list:hover span {
+            color: #f00;
+        }
+
+        /* <!-- 下部商品列表 --> */
+
+        .main-menu {
+            overflow: hidden;
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu-list {
+            margin-top: 5px;
+            text-align: left;
+            display: block;
+            float: left;
+            width: 230px;
+            height: 320px;
+            margin-right: 10px;
+            margin-top: 10px;
+            background-color: #fff;
+            border: 1px solid #f00;
+        }
+        
+        .menu-list:nth-child(5n) {
+            margin-right: 0;
+        }
+      
+
+        .menu-list a {
+            text-decoration: none;
+        }
+
+        .menu-list img {
+            display: block;
+            margin: 30px auto;
+            height: 130px;
+            width: 130px;
+        }
+
+        .menu-list p {
+            font-size: 16px;
+            color: #999;
+            /* border: 1px solid #000; */
+            margin-left: 10px;
+        }
+
+        .menu-list small,
+        b {
+
+            color: #f00;
+        }
+
+        .menu-list:hover{
+            margin-top: -10px;
+            opacity: .7;
+            transition-duration: 3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 定义版心，整个网页可以通用 -->
+    <div class="wrapper">
+        <!-- 头部导航 -->
+        <ul class="nav">
+            <!-- 导航明细 -->
+            <li class="nav-list">
+                <a href="">
+                    <h3>精选</h3>
+                    <span>猜你喜欢</span>
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="">
+                    <h3>精选</h3>
+                    <span>猜你喜欢</span>
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="">
+                    <h3>精选</h3>
+                    <span>猜你喜欢</span>
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="">
+                    <h3>精选</h3>
+                    <span>猜你喜欢</span>
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="">
+                    <h3>精选</h3>
+                    <span>猜你喜欢</span>
+                </a>
+            </li>
+            <li class="nav-list">
+                <a href="">
+                    <h3>精选</h3>
+                    <span>猜你喜欢</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- 下部商品列表 -->
+    <!-- 版心 -->
+    <div class="wrapper">
+        <ul class="main-menu">
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+            <li class="menu-list">
+                <a href="">
+                    <img src="./imgs/goods_1.webp" alt="">
+                    <p>
+                        华为&nbsp;HUAWEI&nbsp;nova&nbsp;5i&nbsp;后置AI<br>
+                        四摄&nbsp;极点全面屏
+                    </p>
+                    <p class="price">
+                        <small>￥</small>
+                        <b>1999.</b>
+                        <small>00</small>
+                    </p>
+
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
